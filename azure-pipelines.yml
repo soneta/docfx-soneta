@@ -14,8 +14,8 @@ stages:
     - task: chrismason.vsts-docfxtasks.docfx-extension-build-task.DocFxTask@0
       displayName: 'Create DocFx Documentation'
       inputs:
-        solution: '$(System.DefaultWorkingDirectory)\Documentation_$(ProductName)'
+        solution: '$(System.DefaultWorkingDirectory)'
         nugetConfigPath: '$(System.DefaultWorkingDirectory)\NuGet.Config'
-    - publish: ./Documentation_$(ProductName)/docs
+    - publish: ./docs
       displayName: Publish Docfx Build artifact
       artifact: docs
