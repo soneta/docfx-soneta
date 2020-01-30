@@ -16,6 +16,10 @@ stages:
       inputs:
         solution: '$(System.DefaultWorkingDirectory)'
         nugetConfigPath: '$(System.DefaultWorkingDirectory)\NuGet.Config'
-    - publish: ./docs
-      displayName: Publish Docfx Build artifact
-      artifact: docs
+    - task: AccidentalFish.githubpages-publish.AccidentalFish.GitHubPages-Publish.GitHubPagesPublish@1
+      displayName: 'Publishes to GitHub Pages'
+      inputs:
+        docPath: '$(System.DefaultWorkingDirectory)\docs\*'
+        githubusername: mgalarowicz
+        githubaccesstoken: $(MGAccessToken)
+        repositoryname: 'docfx-soneta'
