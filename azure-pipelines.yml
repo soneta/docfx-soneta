@@ -21,5 +21,8 @@ stages:
       inputs:
         docPath: '$(docPath)'
         githubusername: '$(user)'
+        githubemail: '$(email)'
         githubaccesstoken: '$(MGAccessToken)'
         repositoryname: '$(repoName)'
+        branchname: '$(branchName)'
+        commitmessage: '$(Commit)'
