@@ -16,6 +16,6 @@ stages:
       inputs:
         solution: '$(System.DefaultWorkingDirectory)\Documentation_$(ProductName)'
         nugetConfigPath: '$(System.DefaultWorkingDirectory)\NuGet.Config'
-    - publish: ./Documentation_$(ProductName)/_site
+    - publish: ./Documentation_$(ProductName)/docs
       displayName: Publish Docfx Build artifact
-      artifact: site_$(ProductName)
+      artifact: docs
