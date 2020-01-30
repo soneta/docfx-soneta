@@ -1,0 +1,1 @@
+Folder zawiera artykuły dotyczące tworzenia dokumentacji.

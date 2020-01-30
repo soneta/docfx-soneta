@@ -1,0 +1,21 @@
+resources:
+- repo: self
+stages:
+- stage: DocfxBuild
+  jobs:
+  - job: Docfx
+    displayName: BuildStaticFiles
+    pool:
+      name: Default
+    steps:
+    - task: UseNode@1
+      inputs:
+        version: '12.10.0'
+    - task: chrismason.vsts-docfxtasks.docfx-extension-build-task.DocFxTask@0
+      displayName: 'Create DocFx Documentation'
+      inputs:
+        solution: '$(System.DefaultWorkingDirectory)\Documentation_$(ProductName)'
+        nugetConfigPath: '$(System.DefaultWorkingDirectory)\NuGet.Config'
+    - publish: ./Documentation_$(ProductName)/_site
+      displayName: Publish Docfx Build artifact
+      artifact: site_$(ProductName)
