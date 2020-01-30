@@ -22,4 +22,4 @@ stages:
         docPath: '$(System.DefaultWorkingDirectory)\docs\*'
         githubusername: mgalarowicz
         githubaccesstoken: $(MGAccessToken)
-        repositoryname: 'docfx-soneta'
+        repositoryname: 'soneta/docfx-soneta'
