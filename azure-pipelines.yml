@@ -20,6 +20,6 @@ stages:
       displayName: 'Publishes to GitHub Pages'
       inputs:
         docPath: '$(System.DefaultWorkingDirectory)\docs\*'
-        githubusername: mgalarowicz
+        githubusername: soneta
         githubaccesstoken: $(MGAccessToken)
         repositoryname: 'docfx-soneta'
