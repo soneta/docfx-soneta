@@ -6,7 +6,11 @@
           "articles/**/**.md",
           "articles/**/toc.yml",
           "toc.yml",
-          "index.md"
+          "*.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "README.md"
         ]
       }
     ],
@@ -24,11 +28,19 @@
     "template":[
       "default",
       "templates/enova"],
-    "postProcessors": [],
+    "postProcessors": [ "ExtractSearchIndex" ],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
     "keepFileLink": false,
     "cleanupCacheHistory": false,
-    "disableGitFeatures": false
+    "disableGitFeatures": false,
+    "globalMetadata": {
+      "_enableSearch": "true",
+      "_gitContribute": {
+        "repo": "https://github.com/soneta/docfx-soneta",
+        "branch": "dev"
+      },
+      "_gitUrlPattern": "github"
   }
+}
 }
