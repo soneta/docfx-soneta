@@ -1,6 +1,6 @@
 <script type="text/javascript" 
         src="https://utteranc.es/client.js"
-        repo="soneta / docfx-soneta"
+        repo="soneta/docfx-soneta"
         issue-term="title"
         label="Comments"
         theme="github-light"
