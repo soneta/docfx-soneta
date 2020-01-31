@@ -1,8 +1,17 @@
 {
   "homepages": [],
-  "source_base_path": "C:/azp/agent/_work/10/s",
+  "source_base_path": "C:/azp/agent/_work/6/s",
   "xrefmap": "xrefmap.yml",
   "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
     {
       "type": "Resource",
       "source_relative_path": "articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep1.png",
@@ -331,10 +340,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/Procedury/Dokumentacja/Instalacja_i_Konfiguracja_VSCode.html",
-          "hash": "cN+Q6Hgfj9za0IBHfI9cAg=="
+          "hash": "+CQ/nnydvRZuB9rXDZ8xHg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -343,10 +352,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/Procedury/Dokumentacja/README.html",
-          "hash": "GNGaO3oBBHSjlg9SiggFZw=="
+          "hash": "MXSHnB8yKGBBt42m78pQBQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -355,10 +364,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/Procedury/README.html",
-          "hash": "RWfwkBMeHoDdbEmjwVDJYA=="
+          "hash": "vL3GXv+XdBmhuvRUl+oBBw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -367,10 +376,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/Projekty/UserEducation/Ulotka.html",
-          "hash": "F5gjZY+IPgiTC5z6AiUObQ=="
+          "hash": "g6dxHdFzxi27Tj3/xwNH3g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -379,10 +388,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/Projekty/Wsparcie/Projekt_prowadzenie_wsparcia_w_CRM.html",
-          "hash": "f76jCCDusSysR4Ng+6pEdQ=="
+          "hash": "iGP6qFPibM29fYKaUq5/nQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -391,10 +400,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/readme.html",
-          "hash": "0H9t+n4eaGWcnurywmvgFQ=="
+          "hash": "efEvIb5vgcScA6CSuBqQhw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -730,754 +739,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep3.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep4.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep4.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep5.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep5.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep6.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep6.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep7.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep7.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/allowVSC.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/allowVSC.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/azurereposex.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/azurereposex.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/clone.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/clone.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/extentions_icon.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/extentions_icon.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep10.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep10.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep11.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep11.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep3.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep4.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep4.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep5.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep5.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep6.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep6.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep7.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep7.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep8.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep8.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep9.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep9.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/instaltaorVSC.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/instaltaorVSC.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/lan_tool_set.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/lan_tool_set.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/ln_tool.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/ln_tool.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/openrepo.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/openrepo.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/polish_ex.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/polish_ex.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/repo.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/repo.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/settings.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/articles/Wewnętrzne/Procedury/Dokumentacja/Images/settings.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep3.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep4.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep4.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep5.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep5.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep6.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep6.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep7.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/VSCInstallStep7.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/allowVSC.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/allowVSC.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/azurereposex.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/azurereposex.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/clone.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/clone.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/extentions_icon.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/extentions_icon.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep10.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep10.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep11.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep11.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep3.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep4.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep4.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep5.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep5.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep6.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep6.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep7.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep7.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep8.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep8.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep9.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/gitinstallstep9.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/instaltaorVSC.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/instaltaorVSC.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/lan_tool_set.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/lan_tool_set.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/ln_tool.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/ln_tool.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/openrepo.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/openrepo.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/polish_ex.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/polish_ex.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/repo.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/repo.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/settings.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/articles/Wewnętrzne/Procedury/Dokumentacja/Images/settings.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/images/logo.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/images/logo.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/images/logo365.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/images/logo365.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/images/logo365_biale.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/images/logo365_biale.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/images/logobiale.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/images/logobiale.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/docs/images/throbber.gif",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/docs/images/throbber.gif"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/images/logo.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/images/logo.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/images/logo365.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/images/logo365.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/images/logo365_biale.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/images/logo365_biale.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/images/logobiale.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/images/logobiale.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/ghpages/images/throbber.gif",
-      "output": {
-        "resource": {
-          "relative_path": "docs/ghpages/images/throbber.gif"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "docs/images/logo.png",
       "output": {
         "resource": {
@@ -1592,7 +853,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "TurfO84j02o3Q5gQaVlfUg=="
+          "hash": "tIJjLy78Of1R7t8JDzO6Wg=="
         }
       },
       "is_incremental": false,
@@ -1614,19 +875,14 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -1635,17 +891,24 @@
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 7,
-          "skipped_file_count": 6
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         }
       }
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
