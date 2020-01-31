@@ -1,10 +1,10 @@
 resources:
 - repo: self
 stages:
-- stage: DocfxBuild
+- stage: Docfx
   jobs:
   - job: Docfx
-    displayName: BuildStaticFiles
+    displayName: GithubPagesDocumentation
     pool:
       name: Default
     steps:
