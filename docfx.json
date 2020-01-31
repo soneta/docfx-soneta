@@ -6,11 +6,7 @@
           "articles/**/**.md",
           "articles/**/toc.yml",
           "toc.yml",
-          "*.md"
-        ],
-        "exclude": [
-          "obj/**",
-          "README.md"
+          "index.md"
         ]
       }
     ],
