@@ -3,12 +3,3 @@
 <script type="text/javascript" src="{{_rel}}styles/docfx.vendor.js"></script>
 <script type="text/javascript" src="{{_rel}}styles/docfx.js"></script>
 <script type="text/javascript" src="{{_rel}}styles/main.js"></script>
-<script type="text/javascript" 
-        src="https://utteranc.es/client.js"
-        repo="soneta / docfx-soneta"
-        issue-term="title"
-        label="Comments"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
