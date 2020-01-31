@@ -8,6 +8,12 @@ stages:
     pool:
       name: Default
     steps:
+    - powershell: |
+           $ghPagesPath = "$(System.DefaultWorkingDirectory)\ghpages"
+           if (Test-Path -Path $ghPagesPath) {
+             Remove-Item –Path $ghPagesPath –Recurse -Force
+           }
+      displayName: 'Clean Directory'
     - task: UseNode@1
       inputs:
         version: '12.10.0'
