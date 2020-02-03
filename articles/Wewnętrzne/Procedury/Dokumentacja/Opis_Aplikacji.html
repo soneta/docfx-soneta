@@ -80,9 +80,9 @@
 <h1 id="dokumentacja-w-formie-publicznej---docfx-azure-pipelines-github-pages">DOKUMENTACJA W FORMIE PUBLICZNEJ - DOCFX, AZURE PIPELINES, GITHUB PAGES</h1>
 
 <p>Poniższa dokumentacja dotyczy przykładowego rozwiązania znajdującego się pod adresem: <a href="https://soneta.github.io/docfx-soneta/">https://soneta.github.io/docfx-soneta/</a></p>
-<p>FlowChart aplikacji:</p>
+<h3 id="flowchart-aplikacji">FlowChart aplikacji</h3>
 <p><img src="Images/diagram1.png" alt="Alt" title="Diagram1"></p>
-<p>Opis schematu:</p>
+<h3 id="opis-schematu">Opis schematu</h3>
 <ol>
 <li>Tworzymy nowy projekt dokumentacji z wykorzystaniem DocFX.</li>
 <li>Za pomocą Visual Studio Code dokonujemy w nim wszelkich zmian. Inicjujemy lokalne repozytorium.</li>
@@ -91,36 +91,28 @@
 <li>Następnie publikuje tj. wykonuje commit powrotny do naszego repozytorium na github z tym że tym razem commit dotyczy brancha gh-pages (branch który jest źródłem dla GitHub Pages).</li>
 <li>W momencie poprawnego zakończenia pracy pipeline'a oraz wykonaniu commita, strona prezentująca naszą dokumentację (GitHub Pages) zostaje uzupełniona o zmiany przez nas dokonane.</li>
 </ol>
-<p>Wskazówki:</p>
-<p><em>DocFX</em></p>
+<h3 id="wskazówki">Wskazówki</h3>
+<p><em><strong>DocFX</strong></em></p>
 <ol>
 <li>Zapoznać się z dokumentacją: <a href="https://dotnet.github.io/docfx/">https://dotnet.github.io/docfx/</a></li>
 <li>Stworzyć własny projekt zgodnie z instrukcją w dokumentacji</li>
 </ol>
-<p><em>Visual Studio Code</em></p>
+<p><em><strong>Visual Studio Code</strong></em></p>
 <ol>
 <li><p>Dostosować utworzony standardowo projekt według swoich indywidualnych preferencji i potrzeb.</p>
-<blockquote>
 <p>Dodatek do VSC pomagąjący w pracy z DocFX:</p>
-</blockquote>
 <ul>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=tintoy.docfx-assistant">https://marketplace.visualstudio.com/items?itemName=tintoy.docfx-assistant</a></li>
 </ul>
-<blockquote>
 <p>Dodatek wspomagający pracę z plikami md:</p>
-</blockquote>
 <ul>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint">https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint</a></li>
 </ul>
-<blockquote>
 <p>Kod źródłowy dokumentacji DocFX (przykładowy kod):</p>
-</blockquote>
 <ul>
 <li><a href="https://github.com/dotnet/docfx">https://github.com/dotnet/docfx</a></li>
 </ul>
-<blockquote>
 <p>Krótkie kursy tutoriale użytkowników:</p>
-</blockquote>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=R4zLtuTbsBM">https://www.youtube.com/watch?v=R4zLtuTbsBM</a></li>
 <li><a href="http://www.hardkoded.com/blog/creating-docfx-site">http://www.hardkoded.com/blog/creating-docfx-site</a></li>
@@ -129,7 +121,7 @@
 <li><p>Gotowy projekt zainicjować jako repozytorium git (w terminalu Visual Studio Code), a następnie zgodnie z instrukcją: <a href="https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line">https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line</a> utworzyć nowe repozytorium na GitHub oraz dostarczyć tam swój projekt.</p>
 </li>
 </ol>
-<p><em>Github</em></p>
+<p><em><strong>Github</strong></em></p>
 <ol>
 <li><p>Na nowo utworzonym repozytorium na Github powinny znajdować się min. 2 branche: master (tworzony automatycznie) oraz &quot;czysty&quot; branch gh-pages (instrukcja utworzenia: <a href="https://gist.github.com/ramnathv/2227408">https://gist.github.com/ramnathv/2227408</a>)</p>
 </li>
@@ -156,7 +148,7 @@
 </li>
 </ol>
 <p><a href="https://developer.github.com/apps/installing-github-apps/">https://developer.github.com/apps/installing-github-apps/</a></p>
-<p><em>Azure DevOps</em></p>
+<p><em><strong>Azure DevOps</strong></em></p>
 <ol>
 <li><p>W pierszym kroku należy utworzyć projekt na Azure DevOps</p>
 <ul>
