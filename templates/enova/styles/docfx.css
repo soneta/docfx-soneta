@@ -891,6 +891,10 @@ div.embeddedvideo iframe {
     height: 100%;
 }
 
+.utterances {
+  top: 30px;
+}
+
 /* For printer */
 @media print{
   .article.grid-right {
