@@ -40,12 +40,12 @@
             <article class="content wrap" id="_content" data-uid="{{uid}}">
                 {{!body}}
             </article>
+            {{>partials/comments}}
           </div>
           {{^_disableAffix}}
           {{>partials/affix}}
           {{/_disableAffix}}
         </div>
-        {{>partials/comments}}
       </div>
       {{^_disableFooter}}
       {{>partials/footer}}
