@@ -340,7 +340,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/Procedury/Dokumentacja/Instalacja_i_Konfiguracja_VSCode.html",
-          "hash": "E3ZFMeqLLi84oPtie0q6cw=="
+          "hash": "9M2zzFGlplXD7P57ZKcxZg=="
         }
       },
       "is_incremental": false,
@@ -352,7 +352,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/Procedury/Dokumentacja/README.html",
-          "hash": "EYzTVnQp4P4+GfRuZL0T1g=="
+          "hash": "yeCN5hoDvlKrbWBFCb8UgA=="
         }
       },
       "is_incremental": false,
@@ -364,7 +364,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/Procedury/README.html",
-          "hash": "W/+Ealy61SiKtmnsDOizmw=="
+          "hash": "yWcXMwEjxqhjiaspo/iC5w=="
         }
       },
       "is_incremental": false,
@@ -376,7 +376,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/Projekty/UserEducation/Ulotka.html",
-          "hash": "oTBtPXrMXQfeA59pNVQxAQ=="
+          "hash": "Bu4uHqvSipJwKuGxmLwdrg=="
         }
       },
       "is_incremental": false,
@@ -388,7 +388,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/Projekty/Wsparcie/Projekt_prowadzenie_wsparcia_w_CRM.html",
-          "hash": "qsAetKaJcWBbxgYTECA62Q=="
+          "hash": "TwW7Kcmk3IAXSwHxqvQhjg=="
         }
       },
       "is_incremental": false,
@@ -400,7 +400,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/readme.html",
-          "hash": "j0Gm2tyxhzdgYNar0llS/A=="
+          "hash": "d8KveMnxNYhGdy82l13BSA=="
         }
       },
       "is_incremental": false,
@@ -1601,7 +1601,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "KgFo8GgshpcBt5LOJaIOaw=="
+          "hash": "0fUSWSNNEKnk5vShQ2BtEw=="
         }
       },
       "is_incremental": false,
@@ -1629,16 +1629,16 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ResourceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
