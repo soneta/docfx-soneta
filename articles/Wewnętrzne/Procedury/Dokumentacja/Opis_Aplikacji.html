@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>DOKUMENTACJA W FORMIE PUBLICZNEJ - DOCFX, AZURE PIPELINES, GITHUB PAGES </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="DOKUMENTACJA W FORMIE PUBLICZNEJ - DOCFX, AZURE PIPELINES, GITHUB PAGES ">
+    <meta name="generator" content="docfx 2.48.1.0">
+    
+    <link rel="shortcut icon" href="https://www.enova.pl/content/themes/enova/assets/favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header"> 
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" src="../../../../images/logobiale.png" height="50" width="200" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="dokumentacja-w-formie-publicznej---docfx-azure-pipelines-github-pages">DOKUMENTACJA W FORMIE PUBLICZNEJ - DOCFX, AZURE PIPELINES, GITHUB PAGES</h1>
+
+<p>Poniższa dokumentacja dotyczy przykładowego rozwiązania znajdującego się pod adresem: <a href="https://soneta.github.io/docfx-soneta/">https://soneta.github.io/docfx-soneta/</a></p>
+<p>FlowChart aplikacji:</p>
+<p><img src="Images/diagram1.png" alt="Alt" title="Diagram1"></p>
+<p>Opis schematu:</p>
+<ol>
+<li>Tworzymy nowy projekt dokumentacji z wykorzystaniem DocFX.</li>
+<li>Za pomocą Visual Studio Code dokonujemy w nim wszelkich zmian. Inicjujemy lokalne repozytorium.</li>
+<li>Następnie wykonujemy push do Github na branch master (na nim bedzie historia zmian zwiazana z zawartoscia artykułów).</li>
+<li>Po wykonaniu commita zostaje automatycznie uruchomiony pipeline na Azure DevOps, który pobiera kod z naszego repozytorium na github, buduje go generując statyczne strony dokumentacji</li>
+<li>Następnie publikuje tj. wykonuje commit powrotny do naszego repozytorium na github z tym że tym razem commit dotyczy brancha gh-pages (branch który jest źródłem dla GitHub Pages).</li>
+<li>W momencie poprawnego zakończenia pracy pipeline'a oraz wykonaniu commita, strona prezentująca naszą dokumentację (GitHub Pages) zostaje uzupełniona o zmiany przez nas dokonane.</li>
+</ol>
+<p>Wskazówki:</p>
+<p><em>DocFX</em></p>
+<ol>
+<li>Zapoznać się z dokumentacją: <a href="https://dotnet.github.io/docfx/">https://dotnet.github.io/docfx/</a></li>
+<li>Stworzyć własny projekt zgodnie z instrukcją w dokumentacji</li>
+</ol>
+<p><em>Visual Studio Code</em></p>
+<ol>
+<li><p>Dostosować utworzony standardowo projekt według swoich indywidualnych preferencji i potrzeb.</p>
+<blockquote>
+<p>Dodatek do VSC pomagąjący w pracy z DocFX:</p>
+</blockquote>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=tintoy.docfx-assistant">https://marketplace.visualstudio.com/items?itemName=tintoy.docfx-assistant</a></li>
+</ul>
+<blockquote>
+<p>Dodatek wspomagający pracę z plikami md:</p>
+</blockquote>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint">https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint</a></li>
+</ul>
+<blockquote>
+<p>Kod źródłowy dokumentacji DocFX (przykładowy kod):</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/dotnet/docfx">https://github.com/dotnet/docfx</a></li>
+</ul>
+<blockquote>
+<p>Krótkie kursy tutoriale użytkowników:</p>
+</blockquote>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=R4zLtuTbsBM">https://www.youtube.com/watch?v=R4zLtuTbsBM</a></li>
+<li><a href="http://www.hardkoded.com/blog/creating-docfx-site">http://www.hardkoded.com/blog/creating-docfx-site</a></li>
+</ul>
+</li>
+<li><p>Gotowy projekt zainicjować jako repozytorium git (w terminalu Visual Studio Code), a następnie zgodnie z instrukcją: <a href="https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line">https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line</a> utworzyć nowe repozytorium na GitHub oraz dostarczyć tam swój projekt.</p>
+</li>
+</ol>
+<p><em>Github</em></p>
+<ol>
+<li><p>Na nowo utworzonym repozytorium na Github powinny znajdować się min. 2 branche: master (tworzony automatycznie) oraz &quot;czysty&quot; branch gh-pages (instrukcja utworzenia: <a href="https://gist.github.com/ramnathv/2227408">https://gist.github.com/ramnathv/2227408</a>)</p>
+</li>
+<li><p>Kolejnym krokiem powinno być skonfigurowanie Github Pages. W tym celu należy podążać zgodnie ze wskazówkami wskazanymi w dokumentacjach:</p>
+<ul>
+<li><a href="https://pages.github.com/">https://pages.github.com/</a></li>
+<li><a href="https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site">https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site</a></li>
+</ul>
+</li>
+<li><p>Następnie do github należy &quot;podpiąć&quot; dwie aplikacje:</p>
+<ul>
+<li><p>Azure Pipelines (aplikacja umożliwiająca połączenie z Azure DevOps)</p>
+<ul>
+<li><a href="https://github.com/marketplace/azure-pipelines">https://github.com/marketplace/azure-pipelines</a></li>
+</ul>
+</li>
+<li><p>utterances (aplikacja umożliwiająca skorelowanie komentarzy artykułów na GitHub Pages z issue na GitHub)</p>
+<ul>
+<li><a href="https://github.com/apps/utterances">https://github.com/apps/utterances</a></li>
+<li><a href="https://utteranc.es/">https://utteranc.es/</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p><a href="https://developer.github.com/apps/installing-github-apps/">https://developer.github.com/apps/installing-github-apps/</a></p>
+<p><em>Azure DevOps</em></p>
+<ol>
+<li><p>W pierszym kroku należy utworzyć projekt na Azure DevOps</p>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/azure/devops/organizations/projects/create-project?view=azure-devops&amp;tabs=preview-page">https://docs.microsoft.com/en-us/azure/devops/organizations/projects/create-project?view=azure-devops&amp;tabs=preview-page</a></li>
+</ul>
+</li>
+<li><p>Następnie w zakładce pipelines tworzymy nowy pipeline oraz korelujemy go z naszym repozytorium na GitHub</p>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/github?view=azure-devops&amp;tabs=yaml">https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/github?view=azure-devops&amp;tabs=yaml</a></li>
+<li><a href="https://www.azuredevopslabs.com/labs/azuredevops/github-integration/">https://www.azuredevopslabs.com/labs/azuredevops/github-integration/</a></li>
+<li><a href="https://www.azuredevopslabs.com/labs/vstsextend/github-azurepipelines/">https://www.azuredevopslabs.com/labs/vstsextend/github-azurepipelines/</a></li>
+</ul>
+</li>
+<li><p>W utworzonym pipeline należy wykorzystać dwa taski:</p>
+<ul>
+<li>Budowa statycznego contentu z którego będzię korzystał GitHub Pages: <a href="https://marketplace.visualstudio.com/items?itemName=chrismason.vsts-docfxtasks">https://marketplace.visualstudio.com/items?itemName=chrismason.vsts-docfxtasks</a></li>
+<li>Publikacja w/w contentu powrotnie do repozytorium na github a tym samym zasilenie GitHub Pages: <a href="https://marketplace.visualstudio.com/items?itemName=AccidentalFish.githubpages-publish">https://marketplace.visualstudio.com/items?itemName=AccidentalFish.githubpages-publish</a></li>
+</ul>
+</li>
+<li><p>W ustawieniach pipeline w zakładce Triggers ustawić automatyczne triggerowanie w przypadku pojawienia się nowego commita na branchu master.</p>
+</li>
+</ol>
+</article>
+            <script src="https://utteranc.es/client.js" repo="soneta/docfx-soneta" issue-term="title" label="Comments" theme="github-light" crossorigin="anonymous" async="">
+</script>          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/soneta/docfx-soneta/blob/dev/articles/Wewn&#281;trzne/Procedury/Dokumentacja/Opis_Aplikacji.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>Soneta Sp z o.o.</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>
