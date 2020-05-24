@@ -1,4 +1,4 @@
-# Visual Studio Code Instalacja i konfiguracja #
+# Visual 1Studio Code Instalacja i konfiguracja #
 
 ## Opis narzędzia ##
 Visual Studio Code jest zaawansowanym i przyjaznym użytkownikowi edytorem plików tekstowych, który dzięki bogatemu zestawowi rozszerzeń potrafi zaspokoić potrzeby praktycznie każdego użytkownika.
