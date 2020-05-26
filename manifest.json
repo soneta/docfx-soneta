@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/azp/agent/_work/1/s",
+  "source_base_path": "C:/azp/agent/_work/2/s",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -351,7 +351,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/Procedury/Dokumentacja/Instalacja_i_Konfiguracja_VSCode.html",
-          "hash": "1uGUyu4/7goWNGtOq6Quhw=="
+          "hash": "tihr8Oako35Z+CfYv40tqw=="
         }
       },
       "is_incremental": false,
@@ -363,7 +363,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/Procedury/Dokumentacja/Opis_Aplikacji.html",
-          "hash": "1bIhMiN+XiFVaLBTq88uug=="
+          "hash": "xmprWTFvZZ5KjclLe6nwbQ=="
         }
       },
       "is_incremental": false,
@@ -375,7 +375,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/Procedury/Dokumentacja/README.html",
-          "hash": "0Y4LG5arJ1Tsj9MsWfQXdA=="
+          "hash": "JNiPDI5rSizWaQksHLIqrQ=="
         }
       },
       "is_incremental": false,
@@ -387,7 +387,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/Procedury/README.html",
-          "hash": "KbjKM+mNwPl3Ctt8w9ehXg=="
+          "hash": "xrMHVBOydYVP+F4RMxza5Q=="
         }
       },
       "is_incremental": false,
@@ -399,7 +399,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/Projekty/UserEducation/Ulotka.html",
-          "hash": "5TFy7f0D2VimYF7JNlrkDg=="
+          "hash": "NRQStlQoHUZYG2cESSXirQ=="
         }
       },
       "is_incremental": false,
@@ -411,7 +411,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/Projekty/Wsparcie/Projekt_prowadzenie_wsparcia_w_CRM.html",
-          "hash": "uc78bSEybyowO6UjA4vj7Q=="
+          "hash": "4F9Nobt9l82Y8vU2pudChg=="
         }
       },
       "is_incremental": false,
@@ -423,7 +423,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/readme.html",
-          "hash": "VD+ASz96bTu51hoZEM0xkw=="
+          "hash": "a4bQllXPfoxThb8HOCPHYA=="
         }
       },
       "is_incremental": false,
@@ -502,7 +502,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Fv8FZceDKuBi7qN1PvuLDQ=="
+          "hash": "LUh34+JEvGfl2sTKh4El1Q=="
         }
       },
       "is_incremental": false,
