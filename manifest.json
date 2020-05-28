@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/azp/agent/_work/1/s",
+  "source_base_path": "C:/azp/agent/_work/3/s",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -351,7 +351,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Wewnętrzne/Procedury/Dokumentacja/Instalacja_i_Konfiguracja_VSCode.html",
-          "hash": "HUp6jOHTcaS/BXCSbk3XUg=="
+          "hash": "IL5XudSEYyMq9R/6LlzHSw=="
         }
       },
       "is_incremental": false,
